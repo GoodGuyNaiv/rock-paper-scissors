@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:rgb(28, 159, 68) ;
+    font-family: sans-serif;
+    gap: 3rem;
+}
+
+
+.weapons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.item{
+    border: 4px solid hsl(200, 69%, 31%);
+    padding: 1rem;
+    border-radius: 15px;
+}
+.item:hover{
+    transform: scale(1.2);
+    border: 4px solid hsl(280, 69%, 31%);
+    color: blanchedalmond;
+
+
+}
